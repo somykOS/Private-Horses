@@ -2,6 +2,7 @@ package net.somyk.privatehorses.util;
 
 import com.mojang.authlib.GameProfile;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.LeashKnotEntity;
 import net.minecraft.entity.passive.AbstractHorseEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -20,7 +21,7 @@ import static net.somyk.privatehorses.util.ModConfig.getStringValue;
 public class Utilities {
 
     public static boolean canInteract(AbstractHorseEntity horse, Entity entity){
-        if(horse.getOwnerUuid() == null || horse.getOwnerUuid().equals(entity.getUuid())){
+        if(horse.getOwnerUuid() == null || horse.getOwnerUuid().equals(entity.getUuid()) || entity instanceof LeashKnotEntity){
             return true;
         } else {
             Optional<GameProfile> profile = horse.getServer().getUserCache().getByUuid(horse.getOwnerUuid());
