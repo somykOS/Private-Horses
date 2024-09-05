@@ -1,0 +1,5 @@
+{
+  "message.private-horses.owned_by": "%s належить гравцю %s",
+  "message.private-horses.new_owner": "%s став(ла) власником %s",
+  "message.private-horses.transfer": "%s передав %s тобі"
+}

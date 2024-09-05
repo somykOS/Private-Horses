@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "private-horses",
+	"version": "${version}",
+	"name": "Private Horses",
+	"description": "",
+	"authors": [
+		"somyk"
+	],
+	"contact": {
+		"sources": "https://github.com/somykOS/Private-Horses",
+		"ko-fi": "https://ko-fi.com/somyk"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.somyk.privatehorses.PrivateHorses"
+		]
+	},
+	"mixins": [
+      "private-horses.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"polymer-resource-pack": "0.9.12+1.21.1"
+	}
+}

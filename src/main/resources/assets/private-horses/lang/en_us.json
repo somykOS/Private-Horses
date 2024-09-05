@@ -1,0 +1,5 @@
+{
+  "message.private-horses.owned_by": "%s is owned by %s",
+  "message.private-horses.new_owner": "%s is new owner of %s",
+  "message.private-horses.transfer": "%s transferred %s to you"
+}

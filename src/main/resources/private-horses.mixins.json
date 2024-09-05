@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.somyk.privatehorses.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractHorseEntityMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
