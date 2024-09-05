@@ -4,6 +4,10 @@ Sick of having your horse, donkey, or mule jacked? <br>
 With this mod, you can relax — no one but you can ride or leash your animal now!
 
 ---
+
+Also, I adapted the idea of transferring the animal from [Transferable Pets](https://modrinth.com/plugin/transferable-pets) mod. <br>
+It works same way: leash your horse/donkey/mule, press shift and right-click on a player you want transfer to.
+
 If you`re not using Polymer this config will be generated.
 ```yaml
 # Message translations
@@ -17,9 +21,6 @@ message:
   # 'PlayerName' transferred 'AnimalName' to you
   transfer: '%s transferred %s to you'
 ```
-
-Also I adapted the idea of transferring the animal from [Transferable Pets](https://modrinth.com/plugin/transferable-pets) mod. <br>
-It works same way: leash your horse/donkey/mule, press shift and right-click on a player you want transfer to.
 
 ---
 You can visit my little [contact card](https://somykos.github.io/web/), <br>
